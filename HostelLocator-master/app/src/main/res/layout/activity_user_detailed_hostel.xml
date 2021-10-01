@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:padding="8dp"
+    tools:context=".User.DetailedHostel">
+
+
+    <!--<fragment
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/hostelimages"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/emptyframe"
+                android:padding="5dp"
+                android:src="@drawable/search_hostel_image_two" />
+
+            <RelativeLayout
+                android:id="@+id/hostelnameLayot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hostelimages"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/cityname"
+                    android:layout_toLeftOf="@id/cityname"
+                    android:src="@drawable/location_icon"
+                    app:tint="@color/red" />
+
+                <TextView
+                    android:id="@+id/cityname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/cityName"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/hosstelname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/impact"
+                    android:text="@string/hostelName"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/hostelinfolayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/descriptionlayout"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/distancecalculated"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/pleaseenableloc"
+                    android:textColor="@color/red"
+                    android:textSize="15sp" />
+
+
+                <androidx.appcompat.widget.AppCompatRatingBar
+                    style="@style/Widget.AppCompat.RatingBar.Small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:rating="4" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/wardeninfolayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hostelnameLayot"
+                android:layout_marginTop="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <TextView
+                    android:id="@+id/wardennametext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:fontFamily="@font/varelaround_regular"
+                    android:text="@string/wardennametext"
+                    android:textColor="@color/black"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wardennumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/varelaround_regular"
+                    android:text="@string/numbertext"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/simpleLine"
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_below="@id/wardeninfolayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:background="#BDBDBD" />
+
+
+            <TextView
+                android:id="@+id/hosteldesctext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wardeninfolayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/darkblue"
+                android:textSize="16sp"
+                tools:text="@string/hosteldesctext" />
+
+
+            <RelativeLayout
+                android:id="@+id/descriptionlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hosteldesctext">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/empty_frame2">
+
+                    <TextView
+                        android:id="@+id/hostelDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/varelaround_regular"
+                        android:gravity="center_horizontal"
+                        android:lines="5"
+                        android:paddingStart="20dp"
+                        android:scrollbars="vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:text="@string/hosteldescriptionforlist"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                </ScrollView>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/buttonsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="1dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/showinmap"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="9dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_background_for_buttons"
+                    android:onClick="ShowInMap"
+                    android:src="@drawable/location_icon"
+                    android:tint="#0E57C3" />
+
+                <ImageButton
+                    android:id="@+id/chats"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="9dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_background_for_buttons"
+                    android:onClick="Chat"
+                    android:src="@drawable/chat_icon"
+                    android:tint="#0E57C3" />
+
+                <ImageButton
+                    android:id="@+id/call"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_background_for_buttons"
+                    android:onClick="Callwarden"
+                    android:src="@drawable/call_icon"
+                    android:tint="#FF001E" />
+
+                <!--  <LinearLayout
+                      android:id="@+id/comments"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_weight="1"
+                      android:background="?attr/selectableItemBackground"
+                      android:clickable="true"
+                      android:focusable="true"
+                      android:gravity="center"
+                      android:orientation="horizontal"
+                      android:padding="5dp">
+
+                      <ImageView
+                          android:layout_width="20dp"
+                          android:layout_height="20dp"
+                          android:layout_gravity="center"
+                          android:src="@drawable/comment_icon"
+                          app:tint="@color/black" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginStart="5dp"
+                          android:layout_marginLeft="5dp"
+                          android:gravity="center"
+                          android:text="@string/comments"
+                          android:textColor="@color/black"
+                          android:textSize="14sp" />
+
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:id="@+id/MessageWarden"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_weight="1"
+                      android:background="?attr/selectableItemBackground"
+                      android:clickable="true"
+                      android:focusable="true"
+                      android:gravity="center"
+                      android:orientation="horizontal"
+                      android:padding="5dp">
+
+                      <ImageView
+                          android:layout_width="20dp"
+                          android:layout_height="20dp"
+                          android:layout_gravity="center"
+                          android:src="@drawable/chat_icon"
+                          app:tint="@color/black" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginStart="5dp"
+                          android:layout_marginLeft="5dp"
+                          android:gravity="center"
+                          android:text="@string/chat"
+                          android:textColor="@color/black"
+                          android:textSize="14sp" />
+
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:id="@+id/showInMap"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_weight="1"
+                      android:background="?attr/selectableItemBackground"
+                      android:clickable="true"
+                      android:focusable="true"
+                      android:gravity="center"
+                      android:orientation="horizontal"
+                      android:padding="5dp">
+
+                      <ImageView
+                          android:layout_width="20dp"
+                          android:layout_height="20dp"
+                          android:layout_gravity="center"
+                          android:src="@drawable/location_icon"
+                          app:tint="@color/black" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginStart="5dp"
+                          android:layout_marginLeft="5dp"
+                          android:gravity="center"
+                          android:onClick="ShowInMap"
+                          android:text="@string/showinmap"
+                          android:textColor="@color/black"
+                          android:textSize="14sp" />
+
+                  </LinearLayout>-->
+
+            </LinearLayout>
+
+            <!-- <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:background="#2CFFEB3B"
+                 android:paddingLeft="10dp"
+                 android:paddingRight="10dp"
+                 android:layout_marginBottom="10dp"
+                 android:layout_above="@id/bottomLayout"
+                 >
+
+                 <Button
+                     android:id="@+id/btnaddtofav"
+                     android:layout_width="0dp"
+                     android:layout_height="40dp"
+                     android:layout_weight="1"
+                     android:layout_marginRight="4dp"
+                     android:tint="@color/black"
+                     android:text="@string/comments"
+                     android:layout_marginEnd="4dp" />
+
+                 <Button
+                     android:id="@+id/btnchat"
+                     android:layout_width="0dp"
+                     android:layout_height="40dp"
+                     android:layout_marginLeft="4dp"
+                     android:layout_marginRight="4dp"
+                     android:tint="@color/black"
+                     android:text="@string/chat"
+                     android:layout_weight="1"/>
+                 <ImageButton
+                     android:id="@+id/btnshowinmap"
+                     android:layout_width="0dp"
+                     android:layout_height="40dp"
+                     android:layout_marginLeft="4dp"
+                     android:src="@drawable/location_icon"
+                     android:tint="@color/black"
+                     android:layout_weight="1"
+                     android:layout_marginStart="4dp" />
+
+
+             </LinearLayout>-->
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

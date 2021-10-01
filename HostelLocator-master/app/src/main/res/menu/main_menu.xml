@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_dashbaord_icon"
+            android:title="@string/home_nav" />
+        <item
+            android:id="@+id/nav_my_Hostel"
+            android:icon="@drawable/home_iconn"
+            android:iconTint="@color/black"
+            android:title="@string/myhostel_nav" />
+        <item
+            android:id="@+id/nav_add_missing_place"
+            android:icon="@drawable/add_place_icon"
+            android:title="@string/addMyHostel" />
+        <item
+            android:id="@+id/nav_chats"
+            android:icon="@drawable/chat_icon"
+            android:title="@string/chats_nav" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_nav_icon"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login_nav_icon"
+                    android:title="Login" />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_nav_icon"
+                    android:title="Logout" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Share">
+        <menu>
+
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/share_nav_icon"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_rateus"
+                    android:icon="@drawable/rateus_nav_icon"
+                    android:title="Rate Us" />
+                <item
+                    android:id="@+id/nav_aboutDeveloper"
+                    android:icon="@drawable/info_icon"
+                    android:iconTint="@android:color/holo_green_dark"
+                    android:title="@string/aboutdeveloper" />
+
+            </group>
+
+        </menu>
+
+    </item>
+</menu>

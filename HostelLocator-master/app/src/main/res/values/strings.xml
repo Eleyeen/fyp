@@ -1,0 +1,220 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Applicaiton main Strings-->
+    <string name="app_name">Hostel Locator</string>
+    <string name="Dashboardtoptext">Find Your Hostel</string>
+    <string name="slogan_name">We will help you to find your Hostel!</string>
+    <string name="powered_by">Powered By AS_Khan!</string>
+    <string name="selectcity">Search for your city…</string>
+
+    <!-- Strings for hostel view in a recycler view   -->
+    <string name="hosteldescriptionforlist">One of the best hostel ever in the city, we will facilitate you in more than a better way!</string>
+    <string name="hostelName">Jannat Hostel</string>
+    <string name="distanceCalculated">3 miles away</string>
+    <string name="hostelsNearYou">Hostels Near You</string>
+    <string name="cityName">peshawar</string>
+    <!-- Detailed Hostel Screen Strings-->
+    <string name="showinmap">Show In Map</string>
+    <string name="chat">Message</string>
+    <string name="pleaseenableloc">enable location</string>
+    <string name="refreshing">Refreshing</string>
+    <string name="addtofav">Favourite</string>
+    <string name="comments">Comments</string>
+    <string name="citynametext">City Name</string>
+    <string name="hosteldetailtext">Hostel Detail</string>
+    <string name="searchbar">Search Bar</string>
+    <string name="emailtext">abc@gmail.com</string>
+    <string name="numbertext">03429343384</string>
+    <string name="wardennametext">Amir ali</string>
+    <string name="warden">Warden Name: </string>
+    <string name="hosteldesctext">Hostel Description</string>
+    <string name="logouttext">Logout</string>
+    <string name="deleted">Hostel Deleted</string>
+    <string name="accountdeleted">Account Deleted</string>
+    <string name="accountdeletedesc">Your account information is successfully deleted, create new account and stay with us</string>
+    <string name="hosteldeleted">Your hostel is successfully deleted from the database, No one is able to see it anymore in the list</string>
+
+    <string name="clickonthemarkeroption">Click on the Red marker and click the map icon in Bottom-Left to get the directions</string>
+    <!--titles-->
+    <string name="firstSlidetitle">Find Hostels around You</string>
+    <string name="secondSlideTitle">Make a Call</string>
+    <string name="thirdSlideTitle">Add Missing Place</string>
+    <string name="fourthSlideTitle">Sit Back and Enjoy</string>
+    <string name="chatfeature">Chat Feature</string>
+    <string name="welcometohostellocator">Welcome</string>
+    <string name="addyourHosteltitle">Add your own Hostel</string>
+    <string name="searchhostelstitle">Search for Hostels</string>
+
+
+    <!--Startup Screen Strings-->
+    <string name="startupscreen_slogan">Make It Easy</string>
+    <string name="startupscreen_desc">We will provide You an Easy Platform to Find Your Accommodations</string>
+
+    <!--Descriptions-->
+    <string name="firstSlideDescription">You just click find Hostels, we will display specific or all </string>
+    <string name="secondSlideDescription">We provide almost all the numbers of all the Wardens of the registered Hostels</string>
+    <string name="thirdSlideDescription">If you have a shop or something and want to be a part of our growing industry then add your place</string>
+    <string name="fourthSlideDescription">we will handle everything for you. As you have the app in your pocket then you dont have to worry</string>
+    <string name="welcometohostelloctordescription">We are welocoming to you join us</string>
+    <string name="addyourhosteldesc">If you are the Owner of a Hostel, Then it is easy for you to add Your hostel and keep your business On.</string>
+    <string name="chatfeaturedesc">You also can chat with the specific hostels Warden</string>
+    <string name="searchforhosteldesc">If you are looking for hostels around you, You are at the right place, we will help you to find Hostels around you</string>
+    <!--Buttons-->
+    <string name="skipButton">Skip</string>
+    <string name="nextButton">Next</string>
+    <string name="letGetStarted">Lets Get Started</string>
+
+    <!-- Strings for dashboard-->
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shops">Shops</string>
+    <string name="banks">Banks</string>
+    <string name="education">Education</string>
+
+    <!--Titles and descriptions-->
+    <string name="featured_locations">All Featured Locations</string>
+    <string name="featured_locations_description">All the locations that are featured and have the top demand in the Town!</string>
+    <string name="most_viewed_locations">Most Viewed</string>
+    <string name="Categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">Search...</string>
+
+
+    <!--Navigatoin drawers-->
+    <string name="home_nav">Home</string>
+    <string name="search_nav">Search</string>
+    <string name="myhostel_nav">My Hostel</string>
+    <string name="all_categories_nav">Categories</string>
+    <string name="missing_place_nav">Add Missing Place</string>
+    <string name="chats_nav">Chats</string>
+
+    <!--Bottom navigation menu strings-->
+    <string name="chatsss_bottomnav">Chats</string>
+    <string name="addhosteltext">Add Hostel</string>
+    <string name="listofhostels_bottomnav">List</string>
+    <string name="myHostel_bottomnav">My Hostel</string>
+
+
+    <!--Chats screen strings-->
+
+    <string name="myname">Abdul Salam</string>
+    <string name="writeyourmessagehere">Write your message here</string>
+    <!--Dashbaord main strings-->
+
+    <string name="welcometext">Welcome to Hostel Locator</string>
+    <string name="findyourhosteltext">Find Hostels Near You</string>
+    <string name="WelcomeMr">Welcome</string>
+    <string name="hostelstext">Hostels</string>
+    <string name="dashbaordmain">Dashboard</string>
+    <string name="Nomessages">No Messages</string>
+    <string name="pleaselogin">Please Login to Access all features</string>
+    <string name="dearuser">Dear User</string>
+    <!--Dashboard Icons description attribute-->
+    <string name="open_drawer">Open Drawer</string>
+    <string name="dashboard_search_image">search</string>
+    <string name="searchforlocation">Search for location...</string>
+
+    <!--warden add hostel page strings-->
+    <string name="wardenname">Warden Name</string>
+    <string name="add_your_hostel">Add Your \nHostel</string>
+    <string name="hostel_name">Hostel Name</string>
+    <string name="hostel_desc">Hostel Description</string>
+    <string name="hostel_city">Select City</string>
+    <string name="phone_number">Phone Numnber</string>
+    <string name="add_images">Add Images</string>
+    <string name="click_to_add_images">Click to Add Images</string>
+    <string name="hostel_description">Hostel Description:</string>
+    <string name="addplace">Add Your Hostel Location:</string>
+    <string name="choose_location">Choose Location</string>
+    <string name="chooseImages">Upload Images</string>
+    <string name="browseImages">Browse Images</string>
+    <string name="addMyHostel">Add My Hostel</string>
+    <string name="hostelid">Hostel ID</string>
+    <string name="selectyourcity">Select City:</string>
+    <string name="hostelpreviewimage">Select Hostel Preview Image:</string>
+    <string name="hosteladdedsuccessfully">Hostel Added \nSuccessfully</string>
+    <string name="hosteladdedsuccessfullydesc">Your hostel information has been added successfully to the database, No everyone can see you hostel</string>
+
+    <!--Update profile Info-->
+    <string name="updateprofile">Update Profile</string>
+    <string name="updatehostel">Update Hostel</string>
+    <string name="updatebtn">Update</string>
+    <string name="updateyourhostel">Update Hostel Info</string>
+    <string name="deleteaccount">Delete Account</string>
+
+
+    <!-- permission screen strings-->
+    <string name="permission_request">Permission Request</string>
+    <string name="permission_request_desc">The app needs permission to access the device location to provide required services, Please allow the Permission</string>
+    <string name="grantButtonText">Grant Permission</string>
+    <!--dashboard search buttoon-->
+    <string name="searchbutton">Search</string>
+    <string name="Show_in_Map">Show in Map</string>
+    <string name="showhostels">Find Hostels</string>
+
+    <!--SignUp screens All Strings-->
+    <string name="signup">Sign Up</string>
+    <string name="how_we_work">How we Work?</string>
+    <string name="CreateAccountText">Create \nAccount</string>
+    <string name="Username">Username</string>
+    <string name="fullname">Full name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="norecordsfound">No records found</string>
+    <string name="next">Next</string>
+    <string name="Login">Login</string>
+    <string name="choosegender">Choose Gender</string>
+    <string name="addnewhostel">Add new Hostel</string>
+
+    <string name="norecordstoyourid">Sorry we did not found any record with your email, please add your hostel first</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="selectyourage">Select Your Age</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="enterotpmessage">Enter OTP we have sent to \n +923420963260</string>
+    <string name="verifyotp">Verify OTP</string>
+    <string name="resendotp">Resend OTP</string>
+    <string name="forgotpassword_oneline">Forgot Password?</string>
+    <string name="forgotpassword_twolines">Forgot \n Password?</string>
+    <string name="emailorphone">Email or phone</string>
+    <string name="rememberme">Remember me</string>
+    <string name="emailsent">Email Sent</string>
+    <string name="sentemailmessage">An email has been sent to </string>
+    <string name="forgotPasswordDesc">Provide your phone number for which you want to reset password</string>
+    <string name="provideyouremail">Provide your registered email address for which you want to reset password</string>
+    <string name="makeSelection">Make \nSelection</string>
+    <string name="makeSelectionDesc">Select which contact detail should we \n use to reset Your Password?</string>
+    <string name="randomNumber">+923420963260</string>
+    <string name="randomEmail">askhan398@gmail.com</string>
+    <string name="viaemail">via email</string>
+    <string name="viasms">via sms</string>
+    <string name="verificationemailsent">Verification Email \nSent</string>
+    <string name="verificationemailsentdesc">We have sent an email for verification, Please go and verify your account first</string>
+    <string name="ok">OK</string>
+    <string name="comfirmPassword">Confirm Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="newCredentials">New \n Credentials</string>
+    <string name="newCredentialDesc">Your Identity has been Verified please \nSet Your new Password</string>
+    <string name="successMessage">Your Password Has \nbeen Updated</string>
+    <string name="passwordUpdated">Password \n Updated</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_user_maps__second">Map</string>
+    <string name="title_activity_map_screen">MapScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="developername">Abdul Salam</string>
+    <string name="developerQualification">Master in Computer Science</string>
+    <string name="androiddev">Android Developer</string>
+    <string name="aboutdeveloper">About Developer</string>
+    <string name="introduction">   I have chosen to study computer science because i am fascinated by how computer work and I spend most of my spare time designing programs and web pages because I enjoy problem solving and logical thinking \n   My ambition is to work in programming for a large corporate company, working as part of a team to maximise thier IT potential \n    I enjoyd designing web pages and designed a prototype website for a software development company called Geologix. This involved writing the text for the site and adding icons so that visitors could downlaod software.\n    I created a members area using passwords and used various different programmes to set up graphics flashpoints. I also liased with the senior partners to make sure thay the site fulfilled the requirements of the company</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map__hostel_location">Map</string>
+
+</resources>

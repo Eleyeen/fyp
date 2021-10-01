@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "815679916834",
+    "project_id": "gulhaji-dcfeb",
+    "storage_bucket": "gulhaji-dcfeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815679916834:android:e9c8ff89107c4663c8f37b",
+        "android_client_info": {
+          "package_name": "com.hostelfinder.hostellocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815679916834-t4mvc0m12fnlumv12ps88vo8eqio5pde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hostelfinder.hostellocator",
+            "certificate_hash": "7254b5f655d766a47538a6acfbe70cff564046af"
+          }
+        },
+        {
+          "client_id": "815679916834-66cqj622icccpv9nt71joc3b51f90bln.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUJ8nxKQzWeOxgMkiG2t4YmzHH2fy8zQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815679916834-66cqj622icccpv9nt71joc3b51f90bln.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
